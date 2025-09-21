@@ -1,0 +1,42 @@
+/* Page background */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card styling */
+.card {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  background: #fff;
+}
+
+/* Title */
+.card h3 {
+  font-weight: 700;
+  color: #333;
+}
+
+/* Input focus effect */
+.form-control:focus, .form-select:focus {
+  border-color: #2575fc;
+  box-shadow: 0 0 8px rgba(37, 117, 252, 0.6);
+}
+
+/* Button styling */
+.btn-primary {
+  background: #2575fc;
+  border: none;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background: #1a5edb;
+  transform: scale(1.03);
+}
